@@ -1,0 +1,20 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+
+/* RODAPÉ */
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+  .footer_copy a,
+  .footer_copy {
+    color: #f4f4f4;
+    text-decoration: none;
+  }

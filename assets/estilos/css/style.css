@@ -29,6 +29,15 @@
   animation: mygradient 8s ease-in-out infinite;
 }
 
+.btn-bg {
+  background: #f4f4f4;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #3b76aa, #343a40, #28a74c, #202524);
+  color: #fff;
+  font-weight: bold;
+  animation: mygradient 8s ease-in-out infinite;
+}
+
 @keyframes mygradient {
   0% {
     background-position: 0% 50%;
@@ -114,6 +123,19 @@ strong {
 .descricao {
   width: 100%;
   font-size: 16px;
+}
+
+.bi {
+  font-size: 1.8rem;
+}
+.bi-github {
+  color: #fff;
+}
+.bi-linkedin {
+  color: #fff;
+}
+.bi:hover {
+  color: #000;
 }
 
 /* RODAPÉ */

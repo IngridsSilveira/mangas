@@ -1,0 +1,24 @@
+.content {
+  height: 100vh;
+}
+
+.img-cap {
+  width: 600px;
+  height: 550px;
+  border: 3px solid #000;
+}
+
+.carousel-indicators {
+  bottom: -26px;
+  margin-right: 0;
+  margin-left: 0;
+  background: rgb(28, 26, 26);
+  width: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: none;
+}
+
+/*# sourceMappingURL=style-cap.css.map */

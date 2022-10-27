@@ -36,8 +36,9 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
 
     links.setAttribute(
       "href",
-      "https://mangayabu.top/ler/spy-x-family-capitulo-01-my79707/"
+      "cap-spy.html"
     );
+
   } else if (button.id == "vagabond") {
     console.log(button.id);
 
@@ -50,7 +51,7 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
 
     links.setAttribute(
       "href",
-      "https://mangayabu.top/ler/vagabond-capitulo-01-my1529/"
+      "cap-vagabond.html"
     );
   } else if (button.id == "berserk") {
     console.log(button.id);
@@ -63,7 +64,7 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
     newImage.setAttribute("src", `${imagens[2]}`);
     links.setAttribute(
       "href",
-      "https://mangayabu.top/ler/berserk-capitulo-00-01-my22981/"
+      "cap-berserk.html"
     );
   }
 });

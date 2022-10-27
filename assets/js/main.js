@@ -1,34 +1,32 @@
 const exampleModal = document.getElementById("exampleModal");
 exampleModal.addEventListener("show.bs.modal", (event) => {
-  const modalTitle = exampleModal.querySelector(".titulo");
-
-  const modalDescricao = exampleModal.querySelector(".descricao");
-
-  const modalAutor = exampleModal.querySelector(".autor");
-
-  const modalgenero = exampleModal.querySelector(".genero");
-
-  const displayedImage = document.querySelector(".imagens");
-
-  const newImage = document.querySelector(".imagem_selecionada");
-  newImage.setAttribute("class", "imagem_selecionada");
-  displayedImage.appendChild(newImage);
-
-  const links = document.querySelector(".ler");
-
-  const imagens = [
-    // `https://raw.githubusercontent.com/IngridsSilveira/mangas/main/assets/imagens/spyFamily/SPY%C3%97FAMILY-capa.jpg`,
-    // `https://raw.githubusercontent.com/IngridsSilveira/mangas/main/assets/imagens/vagabond/Vagabond-capa.jpg`,
-    // `https://raw.githubusercontent.com/IngridsSilveira/mangas/main/assets/imagens/berserk/berserk-capa.jpg`
-    `assets/imagens/spyFamily/spy-capa.jpg`,
-    `assets/imagens/vagabond/Vagabond-capa.jpg`,
-    `assets/imagens/berserk/berserk-capa.jpg`,
-  ];
-
   const button = event.relatedTarget;
 
+    const modalTitle = exampleModal.querySelector(".titulo");
+
+    const modalDescricao = exampleModal.querySelector(".descricao");
+
+    const modalAutor = exampleModal.querySelector(".autor");
+
+    const modalgenero = exampleModal.querySelector(".genero");
+
+    const displayedImage = document.querySelector(".imagens");
+
+    const newImage = document.querySelector(".imagem_selecionada");
+    newImage.setAttribute("class", "imagem_selecionada");
+    displayedImage.appendChild(newImage);
+
+    const links = document.querySelector(".ler");
+
+    const imagens = [
+      // `https://raw.githubusercontent.com/IngridsSilveira/mangas/main/assets/imagens/spyFamily/SPY%C3%97FAMILY-capa.jpg`,
+      // `https://raw.githubusercontent.com/IngridsSilveira/mangas/main/assets/imagens/vagabond/Vagabond-capa.jpg`,
+      // `https://raw.githubusercontent.com/IngridsSilveira/mangas/main/assets/imagens/berserk/berserk-capa.jpg`
+      `assets/imagens/spyFamily/spy-capa.jpg`,
+      `assets/imagens/vagabond/Vagabond-capa.jpg`,
+      `assets/imagens/berserk/berserk-capa.jpg`,
+    ];
   if (button.id == "spy") {
-    console.log(button.id);
     modalTitle.innerHTML = `SPY X FAMILY`;
     modalAutor.innerHTML = "Tatsuya Endo";
     modalgenero.innerHTML = "Ação, Comédia e Romance";

@@ -36,20 +36,60 @@
   <main class="bg container-fluid">
     <section class="content d-flex align-items-center justify-content-center">
       <div class="content-div d-flex justify-content-space-around">
-        <div class="content-itens">
-          <img class="images" src="assets/imagens/spyFamily/SPY×FAMILY-capa.jpg" alt="spy family">
+        <div class="content-itens" data-bs-toggle="modal" data-bs-target="#exampleModal" id="spy">
+          <img class="images" src="assets/imagens/spyFamily/spy-capa.jpg" alt="spy family">
           <h1 class="text-center title">SPY x Family</h1>
         </div>
-        <div class="content-itens">
+        <div class="content-itens" data-bs-toggle="modal" data-bs-target="#exampleModal" id="vagabond">
           <img class="images" src="assets/imagens/vagabond/Vagabond-capa.jpg" alt="spy family">
           <h1 class="text-center title">Vagabond</h1>
         </div>
-        <div class="content-itens">
+        <div class="content-itens" data-bs-toggle="modal" data-bs-target="#exampleModal" id="berserk">
           <img class="images" src="assets/imagens/berserk/berserk-capa.jpg" alt="spy family">
           <h1 class="text-center title">Berserk</h1>
         </div>
       </div>
     </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="container d-flex align-items-center justify-content-center">
+                <div class="imagens">
+                  <img class="imagem_selecionada">
+                </div>
+                <div class="m-3">
+                <div class="d-flex">
+                  <strong>Titulo: </strong>
+                  <p class="titulo texto"></p>
+                </div>
+                <div class="d-flex">
+                  <strong>Autor: </strong>
+                  <p class="autor texto"></p>
+                </div>
+                <div class="d-flex">
+                  <strong>Gênero: </strong>
+                  <p class="genero texto"></p>
+                </div>
+                  <strong>Sinopse: </strong>
+                  <div class="desc">
+                    <p class="descricao texto"></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="" class="btn btn-primary ler">Ler primeiro capítulo</a>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer id="rodape" class="footer container-fluid">
       <div class="footer_copy">
         <p class="mb-0 links">Desenvolvido por <a class="links" target="_blank"
@@ -67,6 +107,7 @@
     </footer>
   </main>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

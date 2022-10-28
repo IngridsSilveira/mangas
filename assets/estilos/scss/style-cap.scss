@@ -17,3 +17,12 @@
   .carousel-control-prev-icon {
     background: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .img-cap {
+      width: auto;
+    }
+    .img-cap-w {
+      width: 400px;
+    }
+  }

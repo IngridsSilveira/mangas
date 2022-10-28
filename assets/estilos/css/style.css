@@ -187,22 +187,25 @@ strong {
 }
 @media screen and (max-width: 500px) {
   .content {
-    height: 100vh;
+    height: auto;
   }
   .content-div {
     flex-direction: column;
     width: auto;
   }
   .content-itens {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 35px;
+    margin-top: 10px;
     margin-left: 0;
-    margin-bottom: 15px;
   }
   .title {
     font-size: 1.5rem;
-    text-align: left !important;
+    text-align: center !important;
   }
   .images {
-    height: 190px;
+    height: auto;
     width: 100%;
   }
   .imagem_selecionada {

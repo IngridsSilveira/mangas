@@ -69,6 +69,7 @@
   height: 300px;
   margin-bottom: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .imagem_selecionada {

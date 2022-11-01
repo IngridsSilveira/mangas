@@ -2,8 +2,10 @@
     height: 100vh;
 }
 .img-cap {
-    width: 600px;
-    height: 550px;
+    width: 700px;
+    max-width: 650px;
+    max-height: 550px;
+    cursor: pointer;
     border: 3px solid #000;
 }
 .carousel-indicators {
@@ -20,9 +22,10 @@
 
   @media screen and (max-width: 768px) {
     .img-cap {
-      width: auto;
+      width: 450px;
+      max-height: 750px;
     }
     .img-cap-w {
-      width: 400px;
+      width: 430px;
     }
   }
